@@ -1,0 +1,57 @@
+[
+  {
+    "tier": 1,
+    "buildPoints": 100,
+    "maxBaseAttribute": 4,
+    "maximumBpOnAttributes" : 100,
+    "maxSkill": 4,
+    "maxStartingTalents": 2,
+    "maxPsychicPowers": 3,
+    "maxDicePoolBonus": 4,
+    "maxDicePoolPenalty": 4
+  },
+  {
+    "tier": 2,
+    "buildPoints": 200,
+    "maxBaseAttribute": 6,
+    "maximumBpOnAttributes" : 100,
+    "maxSkill": 5,
+    "maxStartingTalents": 3,
+    "maxPsychicPowers": 4,
+    "maxDicePoolBonus": 5,
+    "maxDicePoolPenalty": 5
+  },
+  {
+    "tier": 3,
+    "buildPoints": 300,
+    "maxBaseAttribute": 8,
+    "maximumBpOnAttributes" : 150,
+    "maxSkill": 6,
+    "maxStartingTalents": 4,
+    "maxPsychicPowers": 5,
+    "maxDicePoolBonus": 6,
+    "maxDicePoolPenalty": 6
+  },
+  {
+    "tier": 4,
+    "buildPoints": 400,
+    "maxBaseAttribute": 10,
+    "maximumBpOnAttributes" : 200,
+    "maxSkill": 7,
+    "maxStartingTalents": 5,
+    "maxPsychicPowers": 6,
+    "maxDicePoolBonus": 7,
+    "maxDicePoolPenalty": 7
+  },
+  {
+    "tier": 5,
+    "buildPoints": 500,
+    "maxBaseAttribute": 12,
+    "maximumBpOnAttributes" : 300,
+    "maxSkill": 8,
+    "maxStartingTalents": 5,
+    "maxPsychicPowers": 7,
+    "maxDicePoolBonus": 8,
+    "maxDicePoolPenalty": 8
+  }
+]

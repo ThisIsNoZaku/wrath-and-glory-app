@@ -1,0 +1,188 @@
+[
+  {
+    "name" : "Ministorum Priest",
+    "category" : "Adeptus Ministorum",
+    "tier" : 1,
+    "cost" : 0
+  },
+  {
+    "name" : "Death Cult Assassin",
+    "category" : "Adeptus Ministorum",
+    "tier" : 2,
+    "cost" : 20
+  },
+  {
+    "name" : "Crusader",
+    "category" : "Adeptus Ministorum",
+    "tier" : 3,
+    "cost" : 40
+  },
+  {
+    "name" : "Sister Hospitaller",
+    "category" : "Adeptus Sororitas",
+    "tier" : 1,
+    "cost" : 0
+  },
+  {
+    "name" : "Sister of Battle",
+    "category" : "Adeptus Ministorum",
+    "tier" : 2,
+    "cost" : 40
+  },
+  {
+    "name" : "Imperial Guardsman",
+    "category" : "Astra Militarum",
+    "tier" : 1,
+    "cost" : 0
+  },
+  {
+    "name" : "Tempestus Scion",
+    "category" : "Astra Militarum",
+    "tier" : 2,
+    "cost" : 30
+  },
+  {
+    "name" : "Imperial Commissar",
+    "category" : "Astra Militarum",
+    "tier" : 3,
+    "cost" : 50
+  },
+  {
+    "name" : "Space Marine Scout",
+    "category" : "Adeptus Astartes",
+    "tier" : 2,
+    "cost" : 20
+  },
+  {
+    "name" : "Tactical Space Marine",
+    "category" : "Adeptus Astartes",
+    "tier" : 2,
+    "cost" : 50
+  },
+  {
+    "name" : "Primaris Marine Intercessor",
+    "category" : "Adeptus Astartes",
+    "tier" : 2,
+    "cost" : 60
+  },
+  {
+    "name" : "Inquisitional Acolyte",
+    "category" : "Agents of the Imperium",
+    "tier" : 1,
+    "cost" : 0
+  },
+  {
+    "name" : "Inquisitional Adept",
+    "category" : "Agents of the Imperium",
+    "tier" : 1,
+    "cost" : 0
+  },
+  {
+    "name" : "Rogue Trader",
+    "category" : "Agents of the Imperium",
+    "tier" : 2,
+    "cost" : 40
+  },
+  {
+    "name" : "Sanctioned Psyker",
+    "category" : "Agents of the Imperium",
+    "tier" : 2,
+    "cost" : 50
+  },
+  {
+    "name" : "Inquisitor",
+    "category" : "Agents of the Imperium",
+    "tier" : 4,
+    "cost" : 70
+  },
+  {
+    "name" : "Skitarius",
+    "category" : "Adeptus Mechanicus",
+    "tier" : 2,
+    "cost" : 40
+  },
+  {
+    "name" : "Tech-Priest",
+    "category" : "Adeptus Mechanicus",
+    "tier" : 3,
+    "cost" : 60
+  },
+  {
+    "name" : "Ganger",
+    "category" : "Scum",
+    "tier" : 1,
+    "cost" : 0
+  },
+  {
+    "name" : "Scavvy",
+    "category" : "Scum",
+    "tier" : 2,
+    "cost" : 10
+  },
+  {
+    "name" : "Desperado",
+    "category" : "Scum",
+    "tier" : 3,
+    "cost" : 30
+  },
+  {
+    "name" : "Cultist",
+    "category" : "Renegades",
+    "tier" : 1,
+    "cost" : 0
+  },
+  {
+    "name" : "Rogue Psyker",
+    "category" : "Scum",
+    "tier" : 2,
+    "cost" : 50
+  },
+  {
+    "name" : "Chaos Space Marine",
+    "category" : "Renegades",
+    "tier" : 3,
+    "cost" : 50
+  },
+  {
+    "name" : "Heretek",
+    "category" : "Renegades",
+    "tier" : 3,
+    "cost" : 60
+  },
+  {
+    "name" : "Corsair",
+    "category" : "Aeldari",
+    "tier" : 1,
+    "cost" : 0
+  },
+  {
+    "name" : "Ranger",
+    "category" : "Aeldari",
+    "tier" : 2,
+    "cost" : 30
+  },
+  {
+    "name" : "Warlock",
+    "category" : "Aeldari",
+    "tier" : 3,
+    "cost" : 80
+  },
+  {
+    "name" : "Ork Boy",
+    "category" : "Orks",
+    "tier" : 1,
+    "cost" : 0
+  },
+  {
+    "name" : "Kommando",
+    "category" : "Orks",
+    "tier" : 2,
+    "cost" : 30
+  },
+  {
+    "name" : "Ork Nob",
+    "category" : "Orks",
+    "tier" : 3,
+    "cost" : 60
+  }
+]

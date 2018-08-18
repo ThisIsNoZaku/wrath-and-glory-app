@@ -1,0 +1,70 @@
+[
+  {
+    "name" : "Athletics",
+    "attribute" : "Strength"
+  },
+  {
+    "name" : "Awareness",
+    "attribute" : "Intellect"
+  },
+  {
+    "name" : "Ballistic Skill",
+    "attribute" : "Agility"
+  },
+  {
+    "name" : "Cunning",
+    "attribute" : "Fellowship"
+  },
+  {
+    "name" : "Deception",
+    "attribute" : "Fellowship"
+  },
+  {
+    "name" : "Insight",
+    "attribute" : "Fellowship"
+  },
+  {
+    "name" : "Intimidation",
+    "attribute" : "Willpower"
+  },
+  {
+    "name" : "Leadership",
+    "attribute" : "Fellowship"
+  },
+  {
+    "name" : "Medicae",
+    "attribute" : "Intellect"
+  },
+  {
+    "name" : "Persuasion",
+    "attribute" : "Fellowship"
+  },
+  {
+    "name" : "Pilot",
+    "attribute" : "Strength"
+  },
+  {
+    "name" : "Psychic Mastery",
+    "attribute" : "Willpower"
+  },
+  {
+    "name" : "Scholar",
+    "attribute" : "Intellect"
+  },
+  {
+    "name" : "Stealth",
+    "attribute" : "Agility"
+  },
+  {
+    "name" : "Survival",
+    "attribute" : "Willpower"
+  },
+  {
+    "name" : "Tech",
+    "attribute" : "Intellect"
+  },
+  {
+    "name" : "Weapon Skill",
+    "attribute" : "Initiative"
+  }
+]

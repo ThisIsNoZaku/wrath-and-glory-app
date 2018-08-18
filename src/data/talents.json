@@ -1,0 +1,126 @@
+[
+  {
+    "name": "Acts of Faith",
+    "cost": 40,
+    "prerequisites": {
+      "match": "any",
+      "matchers": [
+        {
+          "archetype": {
+            "category": "Adeptus Ministorum"
+          }
+        },
+        {
+          "archetype": {
+            "category": "Adepta Sororitas"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Augmetic",
+    "cost": 20,
+    "prerequisites": {
+      "match": "any",
+      "matchers": [
+        {
+          "attributes": 2
+        }
+      ]
+    }
+  },
+  {
+    "name": "Cybernetic Reconstruction",
+    "cost": 30,
+    "prerequisites": {
+      "match": "any",
+      "matchers": [
+        {
+          "tier": 2
+        }
+      ]
+    }
+  },
+  {
+    "name": "Betrayer",
+    "cost": 30,
+    "prerequisites": {
+      "match": "any",
+      "matchers": [
+        {
+          "archetype": {
+            "category": "Chaos"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Bombardment",
+    "cost": 40,
+    "prerequisites": {
+      "match" : "any",
+      "matchers" : [
+        {
+          "species": {
+            "name": "Aeldari"
+          }
+        },
+        {
+          "archetype": {
+            "category": "Astra Militarium"
+          }
+        },
+        {
+          "archetype": {
+            "category": "Adeuptus Astartes"
+          }
+        },
+        {
+          "archetype": {
+            "name": "Rogue Trader"
+          }
+        },
+        {
+          "archetypes": {
+            "category": "Chaos"
+          }
+        },
+        {
+          "species": {
+            "name": "Ork"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Counterstrike",
+    "cost": 30,
+    "prerequisites": {
+      "match" : "any",
+      "matchers" : [
+        {
+          "skill": {
+            "Weapon Skill" : 5
+          }
+        }
+      ]
+    }
+  },
+  {
+    "name": "Dedicant",
+    "cost": 30,
+    "prerequisites": {
+      "match" : "any",
+      "matchers" : [
+        {
+          "skill": {
+            "Weapon Skill" : 5
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,597 @@
+[
+  {
+    "name" : "Human",
+    "pointCost": 0,
+    "baseTier" : 1,
+    "speed" : 6,
+    "attributeMaximums" : {
+      "Strength" : 8,
+      "Agility" : 8,
+      "Toughness" : 8,
+      "Intellect" : 8,
+      "Willpower" : 8,
+      "Fellowship" : 8,
+      "Initialtive" : 8,
+      "Speed" : 8
+    }
+  },
+  {
+    "name" : "Eldar",
+    "pointCost" : 10,
+    "baseTier" : 1,
+    "speed" : 8,
+    "attributeModifications" : {
+      "Agility" : 1
+    },
+    "abilities" : [
+      "Outsider",
+      "Intense Emotion",
+      "Psychosensitive"
+    ],
+    "attributeMaximums" : {
+      "Strength" : 12,
+      "Agility" : 7,
+      "Toughness" : 12,
+      "Intellect" : 7,
+      "Willpower" : 8,
+      "Fellowship" : 7,
+      "Initialtive" : 7,
+      "Speed" : 7
+    }
+  },
+  {
+    "name" : "Ork",
+    "pointCost" : 10,
+    "baseTier" : 1,
+    "speed" : 6,
+    "attributeModifications" : {
+      "Toughness" : 1
+    },
+    "abilities" : [
+      "Outsider",
+      "Orky",
+      "Bigger is Better"
+    ],
+    "attributeMaximums" : {
+      "Strength" : 7,
+      "Agility" : 12,
+      "Toughness" : 7,
+      "Intellect" : 10,
+      "Willpower" : 12,
+      "Fellowship" : 8,
+      "Initialtive" : 12,
+      "Speed" : 10
+    }
+  },
+  {
+    "name" : "Adeptus Astartes - Blood Angels",
+    "pointCost" : 50,
+    "baseTier" : 2,
+    "speed" : 7,
+    "attributeModifications" : {
+      "Strength" : 1,
+      "Toughness" : 1,
+      "Agility" : 1,
+      "Resolve" : 1
+    },
+    "abilities" : [
+      "Space Marine Implants",
+      "Honor the Chapter",
+      "Blood Frenzy",
+      "The Red Thirst",
+      "Angel of Death"
+    ],
+    "attributeMaximums" : {
+      "Strength" : 10,
+      "Agility" : 9,
+      "Toughness" : 10,
+      "Intellect" : 10,
+      "Willpower" : 10,
+      "Fellowship" : 8,
+      "Initialtive" : 9,
+      "Speed" : 9
+    }
+  },
+  {
+    "name" : "Adeptus Astartes - Dark Angels",
+    "pointCost" : 50,
+    "baseTier" : 2,
+    "speed" : 7,
+    "attributeModifications" : {
+      "Strength" : 1,
+      "Toughness" : 1,
+      "Agility" : 1,
+      "Resolve" : 1
+    },
+    "abilities" : [
+      "Space Marine Implants",
+      "Honor the Chapter",
+      "Fire Discipline",
+      "The Secret",
+      "Angel of Death"
+    ],
+    "attributeMaximums" : {
+      "Strength" : 10,
+      "Agility" : 9,
+      "Toughness" : 10,
+      "Intellect" : 10,
+      "Willpower" : 10,
+      "Fellowship" : 8,
+      "Initialtive" : 9,
+      "Speed" : 9
+    }
+  },
+  {
+    "name" : "Adeptus Astartes - Imperial Fists",
+    "pointCost" : 50,
+    "baseTier" : 2,
+    "speed" : 7,
+    "attributeModifications" : {
+      "Strength" : 1,
+      "Toughness" : 1,
+      "Agility" : 1,
+      "Resolve" : 1
+    },
+    "abilities" : [
+      "Space Marine Implants",
+      "Honor the Chapter",
+      "Siege Master",
+      "No Retreat",
+      "Angel of Death"
+    ],
+    "attributeMaximums" : {
+      "Strength" : 10,
+      "Agility" : 9,
+      "Toughness" : 10,
+      "Intellect" : 10,
+      "Willpower" : 10,
+      "Fellowship" : 8,
+      "Initialtive" : 9,
+      "Speed" : 9
+    }
+  },
+  {
+    "name" : "Adeptus Astartes - Iron Hands",
+    "pointCost" : 50,
+    "baseTier" : 2,
+    "speed" : 7,
+    "attributeModifications" : {
+      "Strength" : 1,
+      "Toughness" : 1,
+      "Agility" : 1,
+      "Resolve" : 1
+    },
+    "abilities" : [
+      "Space Marine Implants",
+      "Honor the Chapter",
+      "The Flesh is Weak",
+      "Unforgiving",
+      "Angel of Death"
+    ],
+    "attributeMaximums" : {
+      "Strength" : 10,
+      "Agility" : 9,
+      "Toughness" : 10,
+      "Intellect" : 10,
+      "Willpower" : 10,
+      "Fellowship" : 8,
+      "Initialtive" : 9,
+      "Speed" : 9
+    }
+  },
+  {
+    "name" : "Adeptus Astartes - Raven Guard",
+    "pointCost" : 50,
+    "baseTier" : 2,
+    "speed" : 7,
+    "attributeModifications" : {
+      "Strength" : 1,
+      "Toughness" : 1,
+      "Agility" : 1,
+      "Resolve" : 1
+    },
+    "abilities" : [
+      "Space Marine Implants",
+      "Honor the Chapter",
+      "Master of Shadows",
+      "Fiercely Independent",
+      "Angel of Death"
+    ],
+    "attributeMaximums" : {
+      "Strength" : 10,
+      "Agility" : 9,
+      "Toughness" : 10,
+      "Intellect" : 10,
+      "Willpower" : 10,
+      "Fellowship" : 8,
+      "Initialtive" : 9,
+      "Speed" : 9
+    }
+  },
+  {
+    "name" : "Adeptus Astartes - Space Wolves",
+    "pointCost" : 50,
+    "baseTier" : 2,
+    "speed" : 7,
+    "attributeModifications" : {
+      "Strength" : 1,
+      "Toughness" : 1,
+      "Agility" : 1,
+      "Resolve" : 1
+    },
+    "abilities" : [
+      "Space Marine Implants",
+      "Honor the Chapter",
+      "Heightened Senses",
+      "Savage Within",
+      "Angel of Death"
+    ],
+    "attributeMaximums" : {
+      "Strength" : 10,
+      "Agility" : 9,
+      "Toughness" : 10,
+      "Intellect" : 10,
+      "Willpower" : 10,
+      "Fellowship" : 8,
+      "Initialtive" : 9,
+      "Speed" : 9
+    }
+  },
+  {
+    "name" : "Adeptus Astartes - Salamanders",
+    "pointCost" : 50,
+    "baseTier" : 2,
+    "speed" : 7,
+    "attributeModifications" : {
+      "Strength" : 1,
+      "Toughness" : 1,
+      "Agility" : 1,
+      "Resolve" : 1
+    },
+    "abilities" : [
+      "Space Marine Implants",
+      "Honor the Chapter",
+      "Fire Born",
+      "Unyielding",
+      "Angel of Death"
+    ],
+    "attributeMaximums" : {
+      "Strength" : 10,
+      "Agility" : 9,
+      "Toughness" : 10,
+      "Intellect" : 10,
+      "Willpower" : 10,
+      "Fellowship" : 8,
+      "Initialtive" : 9,
+      "Speed" : 9
+    }
+  },
+  {
+    "name" : "Adeptus Astartes - Ultramarines",
+    "pointCost" : 50,
+    "baseTier" : 2,
+    "speed" : 7,
+    "attributeModifications" : {
+      "Strength" : 1,
+      "Toughness" : 1,
+      "Agility" : 1,
+      "Resolve" : 1
+    },
+    "abilities" : [
+      "Space Marine Implants",
+      "Honor the Chapter",
+      "Courage and Honor",
+      "Pride of Ultramar",
+      "Angel of Death"
+    ],
+    "attributeMaximums" : {
+      "Strength" : 10,
+      "Agility" : 9,
+      "Toughness" : 10,
+      "Intellect" : 10,
+      "Willpower" : 10,
+      "Fellowship" : 8,
+      "Initialtive" : 9,
+      "Speed" : 9
+    }
+  },
+  {
+    "name" : "Adeptus Astartes - Iron Hands",
+    "pointCost" : 50,
+    "baseTier" : 2,
+    "speed" : 7,
+    "attributeModifications" : {
+      "Strength" : 1,
+      "Toughness" : 1,
+      "Agility" : 1,
+      "Resolve" : 1
+    },
+    "abilities" : [
+      "Space Marine Implants",
+      "Honor the Chapter",
+      "Swift as the Wind",
+      "Strike like Lightning",
+      "Angel of Death"
+    ],
+    "attributeMaximums" : {
+      "Strength" : 10,
+      "Agility" : 9,
+      "Toughness" : 10,
+      "Intellect" : 10,
+      "Willpower" : 10,
+      "Fellowship" : 8,
+      "Initialtive" : 9,
+      "Speed" : 9
+    }
+  },
+
+  {
+    "name" : "Primaris Astartes - Blood Angels",
+    "pointCost" : 100,
+    "baseTier" : 2,
+    "speed" : 7,
+    "attributeModifications" : {
+      "Strength" :  2,
+      "Toughness" : 1,
+      "Agility" : 1,
+      "Resolve" : 1,
+      "Wounds" : 4
+    },
+    "abilities" : [
+      "Space Marine Implants",
+      "Honor the Chapter",
+      "Blood Frenzy",
+      "Angel of Death"
+    ],
+    "attributeMaximums" : {
+      "Strength" : 12,
+      "Agility" : 9,
+      "Toughness" : 10,
+      "Intellect" : 10,
+      "Willpower" : 10,
+      "Fellowship" : 8,
+      "Initialtive" : 9,
+      "Speed" : 9
+    }
+  },
+  {
+    "name" : "Primaris Astartes - Dark Angels",
+    "pointCost" : 100,
+    "baseTier" : 2,
+    "speed" : 7,
+    "attributeModifications" : {
+      "Strength" :  2,
+      "Toughness" : 1,
+      "Agility" : 1,
+      "Resolve" : 1,
+      "Wounds" : 4
+    },
+    "abilities" : [
+      "Space Marine Implants",
+      "Honor the Chapter",
+      "Fire Discipline",
+      "The Secret",
+      "Angel of Death"
+    ],
+    "attributeMaximums" : {
+      "Strength" : 12,
+      "Agility" : 9,
+      "Toughness" : 10,
+      "Intellect" : 10,
+      "Willpower" : 10,
+      "Fellowship" : 8,
+      "Initialtive" : 9,
+      "Speed" : 9
+    }
+  },
+  {
+    "name" : "Primaris Astartes - Imperial Fists",
+    "pointCost" : 100,
+    "baseTier" : 2,
+    "speed" : 7,
+    "attributeModifications" : {
+      "Strength" :  2,
+      "Toughness" : 1,
+      "Agility" : 1,
+      "Resolve" : 1,
+      "Wounds" : 4
+    },
+    "abilities" : [
+      "Space Marine Implants",
+      "Honor the Chapter",
+      "Siege Master",
+      "No Retreat",
+      "Angel of Death"
+    ],
+    "attributeMaximums" : {
+      "Strength" : 12,
+      "Agility" : 9,
+      "Toughness" : 10,
+      "Intellect" : 10,
+      "Willpower" : 10,
+      "Fellowship" : 8,
+      "Initialtive" : 9,
+      "Speed" : 9
+    }
+  },
+  {
+    "name" : "Primaris Astartes - Iron Hands",
+    "pointCost" : 100,
+    "baseTier" : 2,
+    "speed" : 7,
+    "attributeModifications" : {
+      "Strength" :  2,
+      "Toughness" : 1,
+      "Agility" : 1,
+      "Resolve" : 1,
+      "Wounds" : 4
+    },
+    "abilities" : [
+      "Space Marine Implants",
+      "Honor the Chapter",
+      "The Flesh is Weak",
+      "Unforgiving",
+      "Angel of Death"
+    ],
+    "attributeMaximums" : {
+      "Strength" : 12,
+      "Agility" : 9,
+      "Toughness" : 10,
+      "Intellect" : 10,
+      "Willpower" : 10,
+      "Fellowship" : 8,
+      "Initialtive" : 9,
+      "Speed" : 9
+    }
+  },
+  {
+    "name" : "Primaris Astartes - Raven Guard",
+    "pointCost" : 100,
+    "baseTier" : 2,
+    "speed" : 7,
+    "attributeModifications" : {
+      "Strength" :  2,
+      "Toughness" : 1,
+      "Agility" : 1,
+      "Resolve" : 1,
+      "Wounds" : 4
+    },
+    "abilities" : [
+      "Space Marine Implants",
+      "Honor the Chapter",
+      "Master of Shadows",
+      "Fiercely Independent",
+      "Angel of Death"
+    ],
+    "attributeMaximums" : {
+      "Strength" : 12,
+      "Agility" : 9,
+      "Toughness" : 10,
+      "Intellect" : 10,
+      "Willpower" : 10,
+      "Fellowship" : 8,
+      "Initialtive" : 9,
+      "Speed" : 9
+    }
+  },
+  {
+    "name" : "Primaris Astartes - Space Wolves",
+    "pointCost" : 100,
+    "baseTier" : 2,
+    "speed" : 7,
+    "attributeModifications" : {
+      "Strength" :  2,
+      "Toughness" : 1,
+      "Agility" : 1,
+      "Resolve" : 1,
+      "Wounds" : 4
+    },
+    "abilities" : [
+      "Space Marine Implants",
+      "Honor the Chapter",
+      "Heightened Senses",
+      "Savage Within",
+      "Angel of Death"
+    ],
+    "attributeMaximums" : {
+      "Strength" : 12,
+      "Agility" : 9,
+      "Toughness" : 10,
+      "Intellect" : 10,
+      "Willpower" : 10,
+      "Fellowship" : 8,
+      "Initialtive" : 9,
+      "Speed" : 9
+    }
+  },
+  {
+    "name" : "Primaris Astartes - Salamanders",
+    "pointCost" : 100,
+    "baseTier" : 2,
+    "speed" : 7,
+    "attributeModifications" : {
+      "Strength" :  2,
+      "Toughness" : 1,
+      "Agility" : 1,
+      "Resolve" : 1,
+      "Wounds" : 4
+    },
+    "abilities" : [
+      "Space Marine Implants",
+      "Honor the Chapter",
+      "Fire Born",
+      "Unyielding",
+      "Angel of Death"
+    ],
+    "attributeMaximums" : {
+      "Strength" : 12,
+      "Agility" : 9,
+      "Toughness" : 10,
+      "Intellect" : 10,
+      "Willpower" : 10,
+      "Fellowship" : 8,
+      "Initialtive" : 9,
+      "Speed" : 9
+    }
+  },
+  {
+    "name" : "Primaris Astartes - Ultramarines",
+    "pointCost" : 100,
+    "baseTier" : 2,
+    "speed" : 7,
+    "attributeModifications" : {
+      "Strength" :  2,
+      "Toughness" : 1,
+      "Agility" : 1,
+      "Resolve" : 1,
+      "Wounds" : 4
+    },
+    "abilities" : [
+      "Space Marine Implants",
+      "Honor the Chapter",
+      "Courage and Honor",
+      "Pride of Ultramar",
+      "Angel of Death"
+    ],
+    "attributeMaximums" : {
+      "Strength" : 12,
+      "Agility" : 9,
+      "Toughness" : 10,
+      "Intellect" : 10,
+      "Willpower" : 10,
+      "Fellowship" : 8,
+      "Initialtive" : 9,
+      "Speed" : 9
+    }
+  },
+  {
+    "name" : "Primaris Astartes - Iron Hands",
+    "pointCost" : 100,
+    "baseTier" : 2,
+    "speed" : 7,
+    "attributeModifications" : {
+      "Strength" :  2,
+      "Toughness" : 1,
+      "Agility" : 1,
+      "Resolve" : 1,
+      "Wounds" : 4
+    },
+    "abilities" : [
+      "Space Marine Implants",
+      "Honor the Chapter",
+      "Swift as the Wind",
+      "Strike like Lightning",
+      "Angel of Death"
+    ],
+    "attributeMaximums" : {
+      "Strength" : 12,
+      "Agility" : 9,
+      "Toughness" : 10,
+      "Intellect" : 10,
+      "Willpower" : 10,
+      "Fellowship" : 8,
+      "Initialtive" : 9,
+      "Speed" : 9
+    }
+  },
+]
