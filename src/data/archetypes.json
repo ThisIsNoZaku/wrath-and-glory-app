@@ -1,188 +1,1754 @@
 [
   {
-    "name" : "Ministorum Priest",
-    "category" : "Adeptus Ministorum",
-    "tier" : 1,
-    "cost" : 0
+    "name": "Ministorum Priest",
+    "category": "Adeptus Ministorum",
+    "cost": 0,
+    "keywords": [
+      "Imperium",
+      "Adeptus Ministorum"
+    ],
+    "prerequisites": {
+      "match": "any",
+      "matchers": [
+        {
+          "tier": 1,
+          "species": {
+            "name": "Human"
+          },
+          "attributes": {
+            "Willpower": 3
+          },
+          "skills": {
+            "Scholar": 1
+          }
+        }
+      ]
+    },
+    "benefits": {
+      "influence": 1,
+      "abilities": [
+        "Fiery Invective"
+      ],
+      "wargear": [
+        {
+          "name": "Laspistol"
+        },
+        {
+          "name": "Rosarius"
+        },
+        {
+          "name": "Knife"
+        },
+        {
+          "name": "Clothing"
+        },
+        {
+          "name": "Missionary Kit"
+        }
+      ]
+    }
   },
   {
-    "name" : "Death Cult Assassin",
-    "category" : "Adeptus Ministorum",
-    "tier" : 2,
-    "cost" : 20
+    "name": "Death Cult Assassin",
+    "category": "Adeptus Ministorum",
+    "cost": 20,
+    "keywords": [
+      "Imperium",
+      "Adeptus Ministorum"
+    ],
+    "prerequisites": [
+      {
+        "match": "any",
+        "matchers": [
+          {
+            "tier": 2,
+            "species": {
+              "name": "Human"
+            },
+            "attributes": {
+              "Agility": 4
+            }
+          }
+        ]
+      },
+      {
+        "match": "any",
+        "matchers": [
+          {
+            "skills": {
+              "Weapon Skill": 2
+            }
+          },
+          {
+            "skills": {
+              "Ballistic Skill": 2
+            }
+          }
+        ]
+      }
+    ],
+    "benefits": {
+      "abilities": [
+        "Glancing Blow"
+      ],
+      "wargear": [
+        {
+          "name": "Death Cult Powerblade",
+          "count": 2
+        },
+        {
+          "name": "Bodyglove"
+        },
+        {
+          "name": "Knife"
+        },
+        {
+          "name": "Laspistol"
+        },
+        {
+          "name": "Stimm",
+          "count": 3
+        }
+      ]
+    }
   },
   {
-    "name" : "Crusader",
-    "category" : "Adeptus Ministorum",
-    "tier" : 3,
-    "cost" : 40
+    "name": "Crusader",
+    "category": "Adeptus Ministorum",
+    "tier": 3,
+    "cost": 40,
+    "prerequisites": {
+      "match": "any",
+      "matchers": [
+        {
+          "tier": 3,
+          "species": {
+            "name": "Human"
+          },
+          "attributes": {
+            "Initiative": 3,
+            "Willpower": 3
+          },
+          "skills": {
+            "Scholar": 1,
+            "Weapon Skill": 3
+          }
+        }
+      ]
+    },
+    "benefits": {
+      "influence": 1,
+      "abilities": [
+        "Armor of Faith"
+      ],
+      "wargear": [
+        {
+          "name": "Power Sword"
+        },
+        {
+          "name": "Storm Shield"
+        },
+        {
+          "name": "Carapace Armor"
+        },
+        {
+          "name": "Clothing"
+        }
+      ]
+    }
   },
   {
-    "name" : "Sister Hospitaller",
-    "category" : "Adeptus Sororitas",
-    "tier" : 1,
-    "cost" : 0
+    "name": "Sister Hospitaller",
+    "category": "Adeptus Sororitas",
+    "cost": 0,
+    "prerequisities": {
+      "match": "any",
+      "matchers": [
+        {
+          "tier": 1,
+          "species": {
+            "name": "Human"
+          },
+          "attributes": {
+            "Intellect": 3,
+            "Willpower": 3
+          },
+          "skills": {
+            "Medicae": 1,
+            "Scholar": 1
+          }
+        }
+      ]
+    },
+    "benefits": {
+      "keywords": [
+        "Imperium",
+        "Adeptus Ministorum",
+        "Adepta Sororitas"
+      ],
+      "abilities": [
+        "Loyal Compassion"
+      ],
+      "wargear": [
+        {
+          "name": "Sororitas Power Armor"
+        },
+        {
+          "name": "Chirurgeon's Tools"
+        },
+        {
+          "name": "Laspistol"
+        },
+        {
+          "name": "Clothing"
+        },
+        {
+          "name": "Rule of the Sororitas"
+        }
+      ]
+    },
+    "specializations": [
+      {
+        "name": "Order of the Bloody Rose",
+        "benefits": {
+          "keywords": [
+            "Order of the Bloody Rose"
+          ]
+        }
+      },
+      {
+        "name": "Order of Our Martyred Lady",
+        "benefits": {
+          "keywords": [
+            "Order of Our Martyred Lady"
+          ]
+        }
+      },
+      {
+        "name": "Order of the Valorous Heart",
+        "benefits": {
+          "keywords": [
+            "Order of the Valorous Heart"
+          ]
+        }
+      },
+      {
+        "name": "Order of the Sacred Rose",
+        "benefits": {
+          "keywords": [
+            "Order of the Sacred Rose"
+          ]
+        }
+      },
+      {
+        "name": "Order of the Ebon Chalice",
+        "benefits": {
+          "keywords": [
+            "Order of the Ebon Chalice"
+          ]
+        }
+      },
+      {
+        "name": "Order of the Argent Shroud",
+        "benefits": {
+          "keywords": [
+            "Order of the Argent Shroud"
+          ]
+        }
+      }
+    ]
   },
   {
-    "name" : "Sister of Battle",
-    "category" : "Adeptus Ministorum",
-    "tier" : 2,
-    "cost" : 40
+    "name": "Sister of Battle",
+    "category": "Adeptus Ministorum",
+    "cost": 40,
+    "prerequisites": {
+      "match": "any",
+      "matchers": [
+        {
+          "tier": 2,
+          "species": {
+            "name": "Human"
+          },
+          "attributes": {
+            "Strength": 3,
+            "Agility": 3,
+            "Toughness": 3,
+            "Willpower": 3
+          },
+          "skills": {
+            "Scholar": 1,
+            "Ballistic Skill": 2,
+            "Weapon Skill": 2
+          }
+        }
+      ]
+    },
+    "benefits": {
+      "influence": 1,
+      "abilities": [
+        "Purity of Faith"
+      ],
+      "wargear": [
+        {
+          "name": "Sororitas Power Armor"
+        },
+        {
+          "name": "Chaplet Ecclesiasticus"
+        },
+        {
+          "choose": 1,
+          "from": [
+            [
+              {
+                "name": "Bolt Gun"
+              }
+            ],
+            [
+              {
+                "name": "Bolt Pistol"
+              },
+              {
+                "name": "Chainsword"
+              }
+            ]
+          ]
+        },
+        {
+          "name": "Clothing"
+        },
+        {
+          "name": "Writing Kit"
+        },
+        {
+          "name": "Rule of the Sororitas"
+        }
+      ]
+    },
+    "specializations": [
+      {
+        "name": "Order of the Bloody Rose",
+        "benefits": {
+          "keywords": [
+            "Order of the Bloody Rose"
+          ]
+        }
+      },
+      {
+        "name": "Order of Our Martyred Lady",
+        "benefits": {
+          "keywords": [
+            "Order of Our Martyred Lady"
+          ]
+        }
+      },
+      {
+        "name": "Order of the Valorous Heart",
+        "benefits": {
+          "keywords": [
+            "Order of the Valorous Heart"
+          ]
+        }
+      },
+      {
+        "name": "Order of the Sacred Rose",
+        "benefits": {
+          "keywords": [
+            "Order of the Sacred Rose"
+          ]
+        }
+      },
+      {
+        "name": "Order of the Ebon Chalice",
+        "benefits": {
+          "keywords": [
+            "Order of the Ebon Chalice"
+          ]
+        }
+      },
+      {
+        "name": "Order of the Argent Shroud",
+        "benefits": {
+          "keywords": [
+            "Order of the Argent Shroud"
+          ]
+        }
+      }
+    ]
   },
   {
-    "name" : "Imperial Guardsman",
-    "category" : "Astra Militarum",
-    "tier" : 1,
-    "cost" : 0
+    "name": "Imperial Guardsman",
+    "category": "Astra Militarum",
+    "tier": 1,
+    "cost": 0,
+    "prerequisiteS": {
+      "match": "any",
+      "matchers": [
+        {
+          "tier": 1,
+          "species": {
+            "name": "Human"
+          },
+          "skills": {
+            "Ballistic Skill": 2
+          }
+        }
+      ]
+    },
+    "benefits": {
+      "keywords": [
+        "Imperium",
+        "Astra Militarum"
+      ],
+      "abilities": [
+        "Look Out, Sir!"
+      ],
+      "wargear": [
+        {
+          "name": "Flak Armor"
+        },
+        {
+          "name": "Lasgun"
+        },
+        {
+          "name": "Guard Issue Mess Kit"
+        },
+        {
+          "name": "Blanket"
+        },
+        {
+          "name": "Grooming Kit"
+        },
+        {
+          "name": "Uplifting Primer"
+        },
+        {
+          "name": "Ration Pack",
+          "count": 3
+        }
+      ]
+    },
+    "specializations": [
+      {
+        "name": "Death Korps of Krieg",
+        "benefits": {
+          "abilities": [
+            "Regimental Bonus (Intimidation)"
+          ]
+        }
+      },
+      {
+        "name": "Cadian Shock Troopers",
+        "benefits": {
+          "abilities": [
+            "Regimental Bonus (Resolve)"
+          ]
+        }
+      },
+      {
+        "name": "Catachan Jungle Fighters",
+        "benefits": {
+          "abilities": [
+            "Regimental Bonus (Survival)"
+          ]
+        }
+      },
+      {
+        "name": "Armageddon Steel Legion",
+        "benefits": {
+          "abilities": [
+            "Regimental Bonus (Pilot)"
+          ]
+        }
+      },
+      {
+        "name": "Vostroyan Firstborn",
+        "benefits": {
+          "abilities": [
+            "Regimental Bonus (Leadership)"
+          ]
+        }
+      },
+      {
+        "name": "Valhallan Ice Warriors",
+        "benefits": {
+          "abilities": [
+            "Regimental Bonus (Resolve)"
+          ]
+        }
+      },
+      {
+        "name": "Tallarn Desert Raiders",
+        "benefits": {
+          "abilities": [
+            "Regimental Bonus (Awareness)"
+          ]
+        }
+      }
+    ]
   },
   {
-    "name" : "Tempestus Scion",
-    "category" : "Astra Militarum",
-    "tier" : 2,
-    "cost" : 30
+    "name": "Tempestus Scion",
+    "category": "Astra Militarum",
+    "tier": 2,
+    "cost": 30,
+    "prerequisites": [
+      {
+        "match": "any",
+        "matchers": [
+          {
+            "tier": 2,
+            "species": {
+              "name": "Human"
+            },
+            "attributes": {
+              "Initiative": 3,
+              "Strength": 3,
+              "Toughness": 3
+            },
+            "skills": {
+              "Ballistic Skill": 2,
+              "Stealth": 2
+            }
+          }
+        ]
+      }
+    ],
+    "benefits": {
+      "keywords": [
+        "Imperium",
+        "Astra Militarum",
+        "Militarum Tempestus"
+      ],
+      "influence": 1,
+      "abilities": [
+        "Elite Soldiers"
+      ],
+      "wargear": [
+        {
+          "name": "Carapace Armor"
+        },
+        {
+          "name": "Hot-Shot Lasgun"
+        },
+        {
+          "name": "Grav-Chute"
+        },
+        {
+          "name": "Knife"
+        },
+        {
+          "name": "Guard Issue Mess Kit"
+        },
+        {
+          "name": "Blanket"
+        },
+        {
+          "name": "Grooming Kit"
+        },
+        {
+          "name": "Uplifting Primer"
+        },
+        {
+          "name": "Ration Pack",
+          "count": 3
+        }
+      ]
+    }
   },
   {
-    "name" : "Imperial Commissar",
-    "category" : "Astra Militarum",
-    "tier" : 3,
-    "cost" : 50
+    "name": "Imperial Commissar",
+    "category": "Astra Militarum",
+    "tier": 3,
+    "cost": 50,
+    "prerequisites": [
+      {
+        "match": "any",
+        "matchers": [
+          {
+            "tier": 3,
+            "species": {
+              "name": "Human"
+            },
+            "attributes": {
+              "Strength": 3,
+              "Toughness": 3,
+              "Willpower": 4
+            },
+            "skills": {
+              "Intimidation": 2
+            }
+          }
+        ]
+      }
+    ],
+    "benefits": {
+      "keywords": [
+        "Imperium",
+        "Astra Militarum",
+        "Officio Prefectus"
+      ],
+      "influence": 3,
+      "abilities": [
+        "Fearsome Respect"
+      ],
+      "wargear": [
+        {
+          "name": "Bolt Pistol"
+        },
+        {
+          "name": "Chain Sword"
+        },
+        {
+          "name": "Flak Coat"
+        },
+        {
+          "name": "Guard Issue Mess Kit"
+        },
+        {
+          "name": "Blanket"
+        },
+        {
+          "name": "Grooming Kit"
+        },
+        {
+          "name": "Uplifting Primer"
+        },
+        {
+          "name": "Ration Pack",
+          "count": 3
+        }
+      ]
+    }
   },
   {
-    "name" : "Space Marine Scout",
-    "category" : "Adeptus Astartes",
-    "tier" : 2,
-    "cost" : 20
+    "name": "Space Marine Scout",
+    "category": "Adeptus Astartes",
+    "prerequisites": [
+      {
+        "match": "any",
+        "matchers": [
+          {
+            "tier": 2,
+            "species": {
+              "name": "Adeptus Astartes"
+            },
+            "attributes": {
+              "Strength": 3,
+              "Agility": 3,
+              "Toughness": 3
+            },
+            "skills": {
+              "Ballistic Skill": 2,
+              "Weapon Skill": 2
+            }
+          }
+        ]
+      }
+    ],
+    "benefits": {
+      "keywords": [
+        "Imperium",
+        "Adeptus Astartes"
+      ],
+      "influence": 1,
+      "abilities": [
+        "Use the Terrain"
+      ],
+      "wargear": [
+        {
+          "name": "Scout Armor"
+        },
+        {
+          "choose": 1,
+          "options": [
+            {
+              "name": "Boltgun"
+            },
+            {
+              "name": "Bolt Pistol"
+            }
+          ]
+        },
+        {
+          "name": "Astartes Combat Knife"
+        },
+        {
+          "name": "Frag Grenade",
+          "count": 3
+        }
+      ]
+    },
+    "cost": 20
   },
   {
-    "name" : "Tactical Space Marine",
-    "category" : "Adeptus Astartes",
-    "tier" : 2,
-    "cost" : 50
+    "name": "Tactical Space Marine",
+    "category": "Adeptus Astartes",
+    "prerequisites": [
+      {
+        "match": "any",
+        "matchers": [
+          {
+            "tier": 3,
+            "species": {
+              "name": "Adeptus Astartes"
+            },
+            "attributes": {
+              "Strength": 4,
+              "Agility": 4,
+              "Toughness": 4
+            },
+            "skills": {
+              "Ballistic Skill": 3,
+              "Weapon Skill": 3
+            }
+          }
+        ]
+      }
+    ],
+    "benefits": {
+      "keywords": [
+        "Imperium",
+        "Adeptus Astartes"
+      ],
+      "influence": 2,
+      "abilities": [
+        "Tactical Versility"
+      ],
+      "wargear": [
+        {
+          "name": "Aquila Power Armor"
+        },
+        {
+          "name": "Boltgun"
+        },
+        {
+          "name": "Bolt Pistol"
+        },
+        {
+          "name": "Astartes Combat Knife"
+        },
+        {
+          "name": "Frag Grenade",
+          "count": 3
+        },
+        {
+          "name": "Krak Grenade",
+          "count": 3
+        }
+      ]
+    },
+    "cost": 50
   },
   {
-    "name" : "Primaris Marine Intercessor",
-    "category" : "Adeptus Astartes",
-    "tier" : 2,
-    "cost" : 60
+    "name": "Primaris Marine Intercessor",
+    "category": "Adeptus Astartes",
+    "prerequisities": [
+      {
+        "match": "any",
+        "matchers": [
+          {
+            "tier": 4,
+            "species": {
+              "name": "Primaris Astartes"
+            },
+            "attributes": {
+              "Strength": 4,
+              "Agility": 4,
+              "Toughness": 4
+            },
+            "skills": {
+              "Ballistic Skill": 4,
+              "Weapon Skill": 4
+            }
+          }
+        ]
+      }
+    ],
+    "benefits": {
+      "keywords": [
+        "Imperium",
+        "Adeptus Astartes",
+        "Primaris"
+      ],
+      "influence": 1,
+      "abilities": [
+        "Intercessor Focus"
+      ],
+      "wargear": [
+        {
+          "name": "Mark X Tacticus Power Armor"
+        },
+        {
+          "name": "Bolt Rifle"
+        },
+        {
+          "name": "Heavy Bolt Pistol"
+        },
+        {
+          "name": "Astartes Combat Knife"
+        },
+        {
+          "name": "Frag Grenade",
+          "count": 3
+        },
+        {
+          "name": "Krak Grenade",
+          "count": 3
+        }
+      ]
+    },
+    "cost": 60
   },
   {
-    "name" : "Inquisitional Acolyte",
-    "category" : "Agents of the Imperium",
-    "tier" : 1,
-    "cost" : 0
+    "name": "Inquisitional Acolyte",
+    "category": "Agents of the Imperium",
+    "prerequisites": [
+      {
+        "match": "any"
+        :,
+        "matchers": [
+          {
+            "tier": 1,
+            "species": {
+              "name": "Human"
+            }
+          }
+        ]
+      },
+      {
+        "match": "any",
+        "matchers": [
+          {
+            "skills": {
+              "Any": 2
+            }
+          }
+        ]
+      }
+    ],
+    "benefits": {
+      "keywords": [
+        "Imperium",
+        "Inquisition"
+      ],
+      "influence": 2,
+      "abilities": [
+        "Inquisitorial Decree"
+      ],
+      "wargear": [
+        {
+          "name": "Flak Armor"
+        },
+        {
+          "name": "Knife"
+        },
+        {
+          "name": "Symbol of Authority"
+        }
+      ]
+    },
+    "specializations": [
+      {
+        "name": "Ordo Hereticus (Resist Psychic)"
+      },
+      {
+        "name": "Ordo Hereticus (Resist Corruption)"
+      },
+      {
+        "name": "Ordo Xenos"
+      },
+      {
+        "name": "Ordo Malleus (Bonus Corruption)"
+      },
+      {
+        "name": "Ordo Malleus (Warp Lore("
+      },
+      {
+        "name": "No/Minor Ordo",
+        "abilities": [
+          {
+            "choose": 1,
+            "options": [
+              "Ordo Skill (Cunning)",
+              "Ordo Skill (Deception)",
+              "Ordo Skill (Insight)",
+              "Ordo Skill (Intimidation)",
+              "Ordo Skill (Persuasion)",
+              "Ordo Skill (Psychic Mastery)",
+              "Ordo Skill (Scholar)",
+              "Ordo Skill (Stealth)",
+              "Ordo Skill (Survival)",
+              "Ordo Skill (Tech)"
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 0
   },
   {
-    "name" : "Inquisitional Adept",
-    "category" : "Agents of the Imperium",
-    "tier" : 1,
-    "cost" : 0
+    "name": "Inquisitional Adept",
+    "category": "Agents of the Imperium",
+    "prerequisites": [
+      {
+        "tier": 1,
+        "species": {
+          "name": "Human"
+        },
+        "attributes": {
+          "Intellect": 3
+        },
+        "skills": {
+          "Scholar": 2
+        }
+      }
+    ],
+    "benefits": {
+      "keywords": [
+        "Imperium",
+        "Inquisition"
+      ],
+      "influence": 1,
+      "abilities": [
+        "Administratum Records"
+      ],
+      "wargear": [
+        {
+          "name": "Flak Armor"
+        },
+        {
+          "name": "Laspistol"
+        },
+        {
+          "name": "Knife"
+        },
+        {
+          "name": "Auto Quill"
+        },
+        {
+          "name": "Data-Slate"
+        },
+        {
+          "name": "Scroll of Ancient Records",
+          "count": 3
+        }
+      ]
+    },
+    "specializations": [
+      {
+        "name": "Ordo Hereticus (Resist Psychic)"
+      },
+      {
+        "name": "Ordo Hereticus (Resist Corruption)"
+      },
+      {
+        "name": "Ordo Xenos"
+      },
+      {
+        "name": "Ordo Malleus (Bonus Corruption)"
+      },
+      {
+        "name": "Ordo Malleus (Warp Lore("
+      },
+      {
+        "name": "No/Minor Ordo",
+        "abilities": [
+          {
+            "choose": 1,
+            "options": [
+              "Ordo Skill (Cunning)",
+              "Ordo Skill (Deception)",
+              "Ordo Skill (Insight)",
+              "Ordo Skill (Intimidation)",
+              "Ordo Skill (Persuasion)",
+              "Ordo Skill (Psychic Mastery)",
+              "Ordo Skill (Scholar)",
+              "Ordo Skill (Stealth)",
+              "Ordo Skill (Survival)",
+              "Ordo Skill (Tech)"
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 0
   },
   {
-    "name" : "Rogue Trader",
-    "category" : "Agents of the Imperium",
-    "tier" : 2,
-    "cost" : 40
+    "name": "Rogue Trader",
+    "category": "Agents of the Imperium",
+    "prerequisites": [
+      {
+        "match": "any",
+        "matchers": [
+          {
+            "tier": 2,
+            "species": {
+              "name": "Human"
+            },
+            "attributes": {
+              "Fellowship": 3
+            },
+            "skills": {
+              "Cunning": 1,
+              "Insight": 1,
+              "Persuasion": 2,
+              "Awareness": 1
+            }
+          }
+        ]
+      }
+    ],
+    "benefits": {
+      "keywords": [
+        "Imperium",
+        "Rogue Trader"
+      ],
+      "influence": 2,
+      "abilities": [
+        "Warrant of Trade"
+      ],
+      "wargear": [
+        {
+          "choose": 1,
+          "options": [
+            {
+              "name": "Flak Coat"
+            },
+            {
+              "name": "Carapace Armor"
+            },
+            {
+              "name": "Light Power Armor"
+            }
+          ]
+        },
+        {
+          "type": "weapon",
+          "maxValue": 4
+        },
+        {
+          "type": "weapon",
+          "maxValue": 4
+        }
+      ]
+    },
+    "specializations": [],
+    "cost": 40
   },
   {
-    "name" : "Sanctioned Psyker",
-    "category" : "Agents of the Imperium",
-    "tier" : 2,
-    "cost" : 50
+    "name": "Sanctioned Psyker",
+    "category": "Agents of the Imperium",
+    "prerequisites": [
+      {
+        "match": "any",
+        "matchers": [
+          {
+            "tier": 2,
+            "species": {
+              "name": "Human"
+            },
+            "attributes": {
+              "Willpower": 4
+            },
+            "skills": {
+              "Psychic Mastery": 1
+            }
+          }
+        ]
+      }
+    ],
+    "benefits": {
+      "keywords": [
+        "Imperium",
+        "Adeptus Astra Telepathica",
+        "Psyker",
+        "Scholastica Psykana"
+      ],
+      "abilities": [
+        "Psyker"
+      ],
+      "psychicPowers": [
+        {
+          "name": "Smite"
+        },
+        {
+          "level": "minor"
+        }
+      ],
+      "wargear": [
+        {
+          "name": "Laspistol"
+        },
+        {
+          "name": "Force Rod"
+        },
+        {
+          "name": "Psykana Mercy Blade"
+        },
+        {
+          "name": "Guard Issue Mess Kit"
+        },
+        {
+          "name": "Blankey"
+        },
+        {
+          "name": "Grooming Kit"
+        },
+        {
+          "name": "Ration Pack",
+          "count": 2
+        }
+      ]
+    },
+    "cost": 50
   },
   {
-    "name" : "Inquisitor",
-    "category" : "Agents of the Imperium",
-    "tier" : 4,
-    "cost" : 70
+    "name": "Inquisitor",
+    "category": "Agents of the Imperium",
+    "prerequisites": [
+      {
+        "match": "any",
+        "matchers": [
+          {
+            "tier": 4,
+            "species": {
+              "name": "Human"
+            },
+            "attributes": {
+              "Intellect": 4,
+              "Willpower": 4
+            },
+            "skills": {
+              "Cunning": 2,
+              "Insight": 2,
+              "Intimidation": 2,
+              "Awareness": 2
+            }
+          }
+        ]
+      }
+    ],
+    "benefits": {
+      "keywords": [
+        "Imperium",
+        "Inquisition"
+      ],
+      "influence": 4,
+      "abilities": [
+        "Unchecked Authority"
+      ],
+      "wargear": [
+        {
+          "choose": 1,
+          "options": [
+            {
+              "name": "Flak Coat",
+              "type": "armor"
+            },
+            {
+              "name": "Carapace Armor",
+              "type": "armor"
+            },
+            {
+              "name": "Ignatus Power Armor",
+              "type": "armor"
+            },
+            {
+              "name": "Light Power Armor",
+              "type": "armor"
+            }
+          ]
+        },
+        {
+          "type": "weapon",
+          "maxAvailability": 7
+        },
+        {
+          "type": "weapon",
+          "maxAvailability": 7
+        },
+        {
+          "name": "Symbol of Authority"
+        }
+      ]
+    },
+    "specializations": [
+      {
+        "name": "Ordo Hereticus (Resist Psychic)"
+      },
+      {
+        "name": "Ordo Hereticus (Resist Corruption)"
+      },
+      {
+        "name": "Ordo Xenos"
+      },
+      {
+        "name": "Ordo Malleus (Bonus Corruption)"
+      },
+      {
+        "name": "Ordo Malleus (Warp Lore("
+      },
+      {
+        "name": "No/Minor Ordo",
+        "abilities": [
+          {
+            "choose": 1,
+            "options": [
+              "Ordo Skill (Cunning)",
+              "Ordo Skill (Deception)",
+              "Ordo Skill (Insight)",
+              "Ordo Skill (Intimidation)",
+              "Ordo Skill (Persuasion)",
+              "Ordo Skill (Psychic Mastery)",
+              "Ordo Skill (Scholar)",
+              "Ordo Skill (Stealth)",
+              "Ordo Skill (Survival)",
+              "Ordo Skill (Tech)"
+            ]
+          }
+        ]
+      }
+    ],
+    "cost": 70
   },
   {
-    "name" : "Skitarius",
-    "category" : "Adeptus Mechanicus",
-    "tier" : 2,
-    "cost" : 40
+    "name": "Skitarius",
+    "category": "Adeptus Mechanicus",
+    "prerequisites": [
+      {
+        "match": "any",
+        "matchers": [
+          {
+            "tier": 2,
+            "species": {
+              "name": "Human"
+            },
+            "attributes": {
+              "Toughness": 3
+            },
+            "skills": {
+              "Ballistic Skill": 2,
+              "Tech": 1
+            }
+          }
+        ]
+      }
+    ],
+    "benefits": {
+      "keywords": [
+        "Imperium",
+        "Adeptus Mechanicus",
+        "Skitarii"
+      ],
+      "abilities": [
+        "Heavily Augmented"
+      ],
+      "wargear": [
+        {
+          "name": "Galvanic Rifle"
+        },
+        {
+          "name": "Skitarii Auto-Cuirass"
+        }
+      ]
+    },
+    "cost": 40
   },
   {
-    "name" : "Tech-Priest",
-    "category" : "Adeptus Mechanicus",
-    "tier" : 3,
-    "cost" : 60
+    "name": "Tech-Priest",
+    "category": "Adeptus Mechanicus",
+    "prerequisites": [
+      {
+        "match": "any",
+        "matchers": [
+          {
+            "tier": 3,
+            "species": {
+              "name": "Human"
+            },
+            "attributes": {
+              "Intellect": 3
+            },
+            "skills": {
+              "Tech": 3,
+              "Scholar": 1
+            }
+          }
+        ]
+      }
+    ],
+    "benefits": {
+      "keywords": [
+        "Imperium",
+        "Adeptus Mechanicus",
+        "Cult Mechanicus"
+      ],
+      "influence": 2,
+      "abilities": [
+        "Rite of Repair"
+      ],
+      "wargear": [
+        {
+          "name": "Omnissian Axe"
+        },
+        {
+          "name": "Laspistol"
+        },
+        {
+          "name": "Augmetic Servo-Arm"
+        },
+        {
+          "choose": 2,
+          "options": [
+            {
+              "type": "augmetic"
+            }
+          ]
+        },
+        {
+          "name": "Light Power Armor"
+        }
+      ]
+    },
+    "cost": 60
   },
   {
-    "name" : "Ganger",
-    "category" : "Scum",
-    "tier" : 1,
-    "cost" : 0
+    "name": "Ganger",
+    "category": "Scum",
+    "prerequisities": [
+      {
+        "match": "any",
+        "matchers": [
+          {
+            "tier": 1,
+            "species": {
+              "name": "Human"
+            },
+            "skills": {
+              "Cunning": 1
+            }
+          }
+        ]
+      }
+    ],
+    "benefits": {
+      "keywords": [
+        "Scum"
+      ],
+      "influence": 1,
+      "abilities": [
+        "Scrounger"
+      ],
+      "wargear": [
+        {
+          "choose": 1,
+          "options": [
+            {
+              "name": "Laspistol"
+            },
+            {
+              "name": "Autopistol"
+            },
+            {
+              "name": "Hand Cannon"
+            },
+            {
+              "name": "Stun Gun"
+            }
+          ]
+        },
+        {
+          "choose": 1,
+          "options": [
+            {
+              "name": "Knife"
+            },
+            {
+              "name": "Sword"
+            }
+          ]
+        },
+        {
+          "name": "Bedroll"
+        },
+        {
+          "name": "Canteen"
+        },
+        {
+          "name": "Clothing"
+        }
+      ]
+    },
+    "cost": 0
   },
   {
-    "name" : "Scavvy",
-    "category" : "Scum",
-    "tier" : 2,
-    "cost" : 10
+    "name": "Scavvy",
+    "category": "Scum",
+    "prerequisites": [
+      {
+        "match": "any",
+        "matchers": [
+          {
+            "tier": 2,
+            "species": {
+              "name": "Human"
+            },
+            "skills": {
+              "Survival": 1
+            }
+          }
+        ]
+      }
+    ],
+    "benefits": {
+      "keywords": [
+        "Scum"
+      ],
+      "influence": -1,
+      "abilities": [
+        "Mutant"
+      ],
+      "wargear": [
+        {
+          "choose": 1,
+          "options": [
+            {
+              "name": "Laspistol"
+            },
+            {
+              "name": "Autopistol"
+            }
+          ]
+        },
+        {
+          "name": "Knife"
+        },
+        {
+          "name": "Bedroll"
+        },
+        {
+          "name": "Canteen"
+        },
+        {
+          "name": "Clothing"
+        }
+      ]
+    },
+    "cost": 10
   },
   {
-    "name" : "Desperado",
-    "category" : "Scum",
-    "tier" : 3,
-    "cost" : 30
+    "name": "Desperado",
+    "category": "Scum",
+    "prerequisites": [
+      {
+        "match": "any",
+        "matchers": [
+          {
+            "tier": 3,
+            "species": {
+              "name": "Human"
+            },
+            "attributes": {
+              "Agility": 3,
+              "Intellect": 2
+            },
+            "skills": {
+              "Awareness": 2,
+              "Cunning": 2,
+              "Investigation ": 2
+            }
+          }
+        ]
+      }
+    ],
+    "benefits": {
+      "keywords": [
+        "Scum"
+      ],
+      "influence": 1,
+      "abilities": [
+        "Valuable Prey"
+      ],
+      "wargear": [
+        {
+          "choose": 1,
+          "options": [
+            {
+              "name": "Boltgun"
+            },
+            [
+              {
+                "name": "Chain Sword"
+              },
+              {
+                "name": "Bolt Pistol"
+              }
+            ]
+          ]
+        },
+        {
+          "name": "Flak Coat"
+        },
+        {
+          "name": "Preysense Goggles"
+        },
+        {
+          "name": "Various Maps"
+        },
+        {
+          "name": "Combi-tool"
+        }
+      ]
+    },
+    "cost": 30
   },
   {
-    "name" : "Cultist",
-    "category" : "Renegades",
-    "tier" : 1,
-    "cost" : 0
+    "name": "Cultist",
+    "category": "Renegades",
+    "prerequisites": [
+      {
+        "match": "any",
+        "matchers": [
+          {
+            "tier": 1,
+            "species": {
+              "name": "Human"
+            },
+            "skills": {
+              "Deception": 1
+            }
+          }
+        ]
+      }
+    ],
+    "benefits": {
+      "keywords": [
+        "Chaos",
+        "Heretic",
+        "Heretic Astartes"
+      ],
+      "influence": 2,
+      "corruption": 1,
+      "abilities": [
+        "From Within"
+      ],
+      "wargear": [
+        {
+          "choose": 1,
+          "options": [
+            {
+              "name": "Lasgun"
+            },
+            {
+              "name": "Autogun"
+            }
+          ]
+        },
+        {
+          "name": "Knife"
+        },
+        {
+          "name": "Symbol of Authority"
+        },
+        {
+          "name": "Guard Issue Mess Kit"
+        },
+        {
+          "name": "Tattered Blanket"
+        }
+      ]
+    },
+    "cost": 0
   },
   {
-    "name" : "Rogue Psyker",
-    "category" : "Scum",
-    "tier" : 2,
-    "cost" : 50
+    "name": "Rogue Psyker",
+    "category": "Scum",
+    "prerequisities": [
+      {
+        "match": "any",
+        "matchers": [
+          {
+            "tier": 2,
+            "species": {
+              "name": "Human"
+            },
+            "attributes": {
+              "Willpower": 4
+            },
+            "skills": {
+              "Psychich Mastery": 1
+            }
+          }
+        ]
+      }
+    ],
+    "benefits": {
+      "keywords": [
+        "Heretic",
+        "Chaos",
+        "Psyker"
+      ],
+      "corruption": 3,
+      "abilities": [
+        "Psyker"
+      ],
+      "psychicPowers": [
+        {
+          "name": "Smite"
+        },
+        {
+          "level": "minor"
+        }
+      ]
+    },
+    "cost": 50
   },
   {
-    "name" : "Chaos Space Marine",
-    "category" : "Renegades",
-    "tier" : 3,
-    "cost" : 50
+    "name": "Chaos Space Marine",
+    "category": "Renegades",
+    "tier": 3,
+    "cost": 50
   },
   {
-    "name" : "Heretek",
-    "category" : "Renegades",
-    "tier" : 3,
-    "cost" : 60
+    "name": "Heretek",
+    "category": "Renegades",
+    "prerequisites": [
+      {
+        "match": "any",
+        "matchers": [
+          {
+            "tier": 2,
+            "species": {
+              "name": "Human"
+            }
+          }
+        ],
+        "attributes": {
+          "Intellect": 3
+        },
+        "skills": {
+          "Tech": 3,
+          "Scholar": 1
+        }
+      }
+    ],
+    "benefits": {
+      "keywords": [
+        "Chaos",
+        "Heretic",
+        "Adeptus Mechanicus",
+        "Dark Mechanicus"
+      ],
+      "influence": 1,
+      "corrpution": 3,
+      "abilities": [
+        "Transformative Technology"
+      ],
+      "wargear": [
+        {
+          "name": "Laspistol"
+        },
+        {
+          "name": "Augmetic Servo-Arm"
+        },
+        {
+          "type": "augmetic"
+        },
+        {
+          "type": "augmetic"
+        }
+      ]
+    },
+    "cost": 60
   },
   {
-    "name" : "Corsair",
-    "category" : "Aeldari",
-    "tier" : 1,
-    "cost" : 0
+    "name": "Corsair",
+    "category": "Aeldari",
+    "prerequisites": [
+      {
+        "match": "any",
+        "matchers": [
+          {
+            "tier" : 1,
+            "species" : {
+              "name" : "Eldar"
+            },
+            "attributes" : {
+              "Agility" : 3
+            },
+            "skills" : {
+              "Athletics" : 2
+            }
+          }
+        ]
+      }
+    ],
+    "benefits" : {
+      "keywords" : [
+        "Aeldari",
+        "Anhrathe"
+      ],
+      "abilities" : [
+        "Dancing on the Blade's Edge"
+      ],
+      "wargear" : [
+        {
+          "name" : "Corsair Armor"
+        },
+        {
+          "name" : "Shuriken Pistol"
+        },
+        {
+          "name" : "Lasblaster"
+        },
+        {
+          "name" : "Spirit Stone"
+        },
+        {
+          "name" : "Plasma Grenade",
+          "count" : 3
+        },
+        {
+          "name" : "Void Suit"
+        }
+      ]
+    },
+    "cost": 0
   },
   {
-    "name" : "Ranger",
-    "category" : "Aeldari",
-    "tier" : 2,
-    "cost" : 30
+    "name": "Ranger",
+    "category": "Aeldari",
+    "prerequisites" : [
+      {
+        "match" : "any",
+        "matchers" :
+      }
+    ],
+    "cost": 30
   },
   {
-    "name" : "Warlock",
-    "category" : "Aeldari",
-    "tier" : 3,
-    "cost" : 80
+    "name": "Warlock",
+    "category": "Aeldari",
+    "tier": 3,
+    "cost": 80
   },
   {
-    "name" : "Ork Boy",
-    "category" : "Orks",
-    "tier" : 1,
-    "cost" : 0
+    "name": "Ork Boy",
+    "category": "Orks",
+    "tier": 1,
+    "cost": 0
   },
   {
-    "name" : "Kommando",
-    "category" : "Orks",
-    "tier" : 2,
-    "cost" : 30
+    "name": "Kommando",
+    "category": "Orks",
+    "tier": 2,
+    "cost": 30
   },
   {
-    "name" : "Ork Nob",
-    "category" : "Orks",
-    "tier" : 3,
-    "cost" : 60
+    "name": "Ork Nob",
+    "category": "Orks",
+    "tier": 3,
+    "cost": 60
   }
 ]
