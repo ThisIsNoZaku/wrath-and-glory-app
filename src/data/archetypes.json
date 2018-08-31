@@ -31,19 +31,19 @@
       ],
       "wargear": [
         {
-          "name": "Laspistol"
+          "item": "Laspistol"
         },
         {
-          "name": "Rosarius"
+          "item": "Rosarius"
         },
         {
-          "name": "Knife"
+          "item": "Knife"
         },
         {
-          "name": "Clothing"
+          "item": "Clothing"
         },
         {
-          "name": "Missionary Kit"
+          "item": "Missionary Kit"
         }
       ]
     }
@@ -93,20 +93,20 @@
       ],
       "wargear": [
         {
-          "name": "Death Cult Powerblade",
+          "item": "Death Cult Powerblade",
           "count": 2
         },
         {
-          "name": "Bodyglove"
+          "item": "Bodyglove"
         },
         {
-          "name": "Knife"
+          "item": "Knife"
         },
         {
-          "name": "Laspistol"
+          "item": "Laspistol"
         },
         {
-          "name": "Stimm",
+          "item": "Stimm",
           "count": 3
         }
       ]
@@ -143,16 +143,16 @@
       ],
       "wargear": [
         {
-          "name": "Power Sword"
+          "item": "Power Sword"
         },
         {
-          "name": "Storm Shield"
+          "item": "Storm Shield"
         },
         {
-          "name": "Carapace Armor"
+          "item": "Carapace Armor"
         },
         {
-          "name": "Clothing"
+          "item": "Clothing"
         }
       ]
     }
@@ -191,19 +191,19 @@
       ],
       "wargear": [
         {
-          "name": "Sororitas Power Armor"
+          "item": "Sororitas Power Armor"
         },
         {
-          "name": "Chirurgeon's Tools"
+          "item": "Chirurgeon's Tools"
         },
         {
-          "name": "Laspistol"
+          "item": "Laspistol"
         },
         {
-          "name": "Clothing"
+          "item": "Clothing"
         },
         {
-          "name": "Rule of the Sororitas"
+          "item": "Rule of the Sororitas"
         }
       ]
     },
@@ -291,37 +291,37 @@
       ],
       "wargear": [
         {
-          "name": "Sororitas Power Armor"
+          "item": "Sororitas Power Armor"
         },
         {
-          "name": "Chaplet Ecclesiasticus"
+          "item": "Chaplet Ecclesiasticus"
         },
         {
           "choose": 1,
           "from": [
             [
               {
-                "name": "Bolt Gun"
+                "item": "Bolt Gun"
               }
             ],
             [
               {
-                "name": "Bolt Pistol"
+                "item": "Bolt Pistol"
               },
               {
-                "name": "Chainsword"
+                "item": "Chainsword"
               }
             ]
           ]
         },
         {
-          "name": "Clothing"
+          "item": "Clothing"
         },
         {
-          "name": "Writing Kit"
+          "item": "Writing Kit"
         },
         {
-          "name": "Rule of the Sororitas"
+          "item": "Rule of the Sororitas"
         }
       ]
     },
@@ -405,25 +405,25 @@
       ],
       "wargear": [
         {
-          "name": "Flak Armor"
+          "item": "Flak Armor"
         },
         {
-          "name": "Lasgun"
+          "item": "Lasgun"
         },
         {
-          "name": "Guard Issue Mess Kit"
+          "item": "Guard Issue Mess Kit"
         },
         {
-          "name": "Blanket"
+          "item": "Blanket"
         },
         {
-          "name": "Grooming Kit"
+          "item": "Grooming Kit"
         },
         {
-          "name": "Uplifting Primer"
+          "item": "Uplifting Primer"
         },
         {
-          "name": "Ration Pack",
+          "item": "Ration Pack",
           "count": 3
         }
       ]
@@ -526,31 +526,31 @@
       ],
       "wargear": [
         {
-          "name": "Carapace Armor"
+          "item": "Carapace Armor"
         },
         {
-          "name": "Hot-Shot Lasgun"
+          "item": "Hot-Shot Lasgun"
         },
         {
-          "name": "Grav-Chute"
+          "item": "Grav-Chute"
         },
         {
-          "name": "Knife"
+          "item": "Knife"
         },
         {
-          "name": "Guard Issue Mess Kit"
+          "item": "Guard Issue Mess Kit"
         },
         {
-          "name": "Blanket"
+          "item": "Blanket"
         },
         {
-          "name": "Grooming Kit"
+          "item": "Grooming Kit"
         },
         {
-          "name": "Uplifting Primer"
+          "item": "Uplifting Primer"
         },
         {
-          "name": "Ration Pack",
+          "item": "Ration Pack",
           "count": 3
         }
       ]
@@ -594,28 +594,28 @@
       ],
       "wargear": [
         {
-          "name": "Bolt Pistol"
+          "item": "Bolt Pistol"
         },
         {
-          "name": "Chain Sword"
+          "item": "Chain Sword"
         },
         {
-          "name": "Flak Coat"
+          "item": "Flak Coat"
         },
         {
-          "name": "Guard Issue Mess Kit"
+          "item": "Guard Issue Mess Kit"
         },
         {
-          "name": "Blanket"
+          "item": "Blanket"
         },
         {
-          "name": "Grooming Kit"
+          "item": "Grooming Kit"
         },
         {
-          "name": "Uplifting Primer"
+          "item": "Uplifting Primer"
         },
         {
-          "name": "Ration Pack",
+          "item": "Ration Pack",
           "count": 3
         }
       ]
@@ -657,24 +657,24 @@
       ],
       "wargear": [
         {
-          "name": "Scout Armor"
+          "item": "Scout Armor"
         },
         {
           "choose": 1,
           "options": [
             {
-              "name": "Boltgun"
+              "item": "Boltgun"
             },
             {
-              "name": "Bolt Pistol"
+              "item": "Bolt Pistol"
             }
           ]
         },
         {
-          "name": "Astartes Combat Knife"
+          "item": "Astartes Combat Knife"
         },
         {
-          "name": "Frag Grenade",
+          "item": "Frag Grenade",
           "count": 3
         }
       ]
@@ -717,23 +717,23 @@
       ],
       "wargear": [
         {
-          "name": "Aquila Power Armor"
+          "item": "Aquila Power Armor"
         },
         {
-          "name": "Boltgun"
+          "item": "Boltgun"
         },
         {
-          "name": "Bolt Pistol"
+          "item": "Bolt Pistol"
         },
         {
-          "name": "Astartes Combat Knife"
+          "item": "Astartes Combat Knife"
         },
         {
-          "name": "Frag Grenade",
+          "item": "Frag Grenade",
           "count": 3
         },
         {
-          "name": "Krak Grenade",
+          "item": "Krak Grenade",
           "count": 3
         }
       ]
@@ -777,23 +777,23 @@
       ],
       "wargear": [
         {
-          "name": "Mark X Tacticus Power Armor"
+          "item": "Mark X Tacticus Power Armor"
         },
         {
-          "name": "Bolt Rifle"
+          "item": "Bolt Rifle"
         },
         {
-          "name": "Heavy Bolt Pistol"
+          "item": "Heavy Bolt Pistol"
         },
         {
-          "name": "Astartes Combat Knife"
+          "item": "Astartes Combat Knife"
         },
         {
-          "name": "Frag Grenade",
+          "item": "Frag Grenade",
           "count": 3
         },
         {
-          "name": "Krak Grenade",
+          "item": "Krak Grenade",
           "count": 3
         }
       ]
@@ -805,8 +805,7 @@
     "category": "Agents of the Imperium",
     "prerequisites": [
       {
-        "match": "any"
-        :,
+        "match": "any",
         "matchers": [
           {
             "tier": 1,
@@ -838,13 +837,13 @@
       ],
       "wargear": [
         {
-          "name": "Flak Armor"
+          "item": "Flak Armor"
         },
         {
-          "name": "Knife"
+          "item": "Knife"
         },
         {
-          "name": "Symbol of Authority"
+          "item": "Symbol of Authority"
         }
       ]
     },
@@ -915,22 +914,22 @@
       ],
       "wargear": [
         {
-          "name": "Flak Armor"
+          "item": "Flak Armor"
         },
         {
-          "name": "Laspistol"
+          "item": "Laspistol"
         },
         {
-          "name": "Knife"
+          "item": "Knife"
         },
         {
-          "name": "Auto Quill"
+          "item": "Auto Quill"
         },
         {
-          "name": "Data-Slate"
+          "item": "Data-Slate"
         },
         {
-          "name": "Scroll of Ancient Records",
+          "item": "Scroll of Ancient Records",
           "count": 3
         }
       ]
@@ -1013,13 +1012,13 @@
           "choose": 1,
           "options": [
             {
-              "name": "Flak Coat"
+              "item": "Flak Coat"
             },
             {
-              "name": "Carapace Armor"
+              "item": "Carapace Armor"
             },
             {
-              "name": "Light Power Armor"
+              "item": "Light Power Armor"
             }
           ]
         },
@@ -1078,25 +1077,25 @@
       ],
       "wargear": [
         {
-          "name": "Laspistol"
+          "item": "Laspistol"
         },
         {
-          "name": "Force Rod"
+          "item": "Force Rod"
         },
         {
-          "name": "Psykana Mercy Blade"
+          "item": "Psykana Mercy Blade"
         },
         {
-          "name": "Guard Issue Mess Kit"
+          "item": "Guard Issue Mess Kit"
         },
         {
-          "name": "Blankey"
+          "item": "Blankey"
         },
         {
-          "name": "Grooming Kit"
+          "item": "Grooming Kit"
         },
         {
-          "name": "Ration Pack",
+          "item": "Ration Pack",
           "count": 2
         }
       ]
@@ -1143,19 +1142,19 @@
           "choose": 1,
           "options": [
             {
-              "name": "Flak Coat",
+              "item": "Flak Coat",
               "type": "armor"
             },
             {
-              "name": "Carapace Armor",
+              "item": "Carapace Armor",
               "type": "armor"
             },
             {
-              "name": "Ignatus Power Armor",
+              "item": "Ignatus Power Armor",
               "type": "armor"
             },
             {
-              "name": "Light Power Armor",
+              "item": "Light Power Armor",
               "type": "armor"
             }
           ]
@@ -1169,7 +1168,7 @@
           "maxAvailability": 7
         },
         {
-          "name": "Symbol of Authority"
+          "item": "Symbol of Authority"
         }
       ]
     },
@@ -1246,10 +1245,10 @@
       ],
       "wargear": [
         {
-          "name": "Galvanic Rifle"
+          "item": "Galvanic Rifle"
         },
         {
-          "name": "Skitarii Auto-Cuirass"
+          "item": "Skitarii Auto-Cuirass"
         }
       ]
     },
@@ -1290,13 +1289,13 @@
       ],
       "wargear": [
         {
-          "name": "Omnissian Axe"
+          "item": "Omnissian Axe"
         },
         {
-          "name": "Laspistol"
+          "item": "Laspistol"
         },
         {
-          "name": "Augmetic Servo-Arm"
+          "item": "Augmetic Servo-Arm"
         },
         {
           "choose": 2,
@@ -1307,7 +1306,7 @@
           ]
         },
         {
-          "name": "Light Power Armor"
+          "item": "Light Power Armor"
         }
       ]
     },
@@ -1345,16 +1344,16 @@
           "choose": 1,
           "options": [
             {
-              "name": "Laspistol"
+              "item": "Laspistol"
             },
             {
-              "name": "Autopistol"
+              "item": "Autopistol"
             },
             {
-              "name": "Hand Cannon"
+              "item": "Hand Cannon"
             },
             {
-              "name": "Stun Gun"
+              "item": "Stun Gun"
             }
           ]
         },
@@ -1362,21 +1361,21 @@
           "choose": 1,
           "options": [
             {
-              "name": "Knife"
+              "item": "Knife"
             },
             {
-              "name": "Sword"
+              "item": "Sword"
             }
           ]
         },
         {
-          "name": "Bedroll"
+          "item": "Bedroll"
         },
         {
-          "name": "Canteen"
+          "item": "Canteen"
         },
         {
-          "name": "Clothing"
+          "item": "Clothing"
         }
       ]
     },
@@ -1414,24 +1413,24 @@
           "choose": 1,
           "options": [
             {
-              "name": "Laspistol"
+              "item": "Laspistol"
             },
             {
-              "name": "Autopistol"
+              "item": "Autopistol"
             }
           ]
         },
         {
-          "name": "Knife"
+          "item": "Knife"
         },
         {
-          "name": "Bedroll"
+          "item": "Bedroll"
         },
         {
-          "name": "Canteen"
+          "item": "Canteen"
         },
         {
-          "name": "Clothing"
+          "item": "Clothing"
         }
       ]
     },
@@ -1475,29 +1474,29 @@
           "choose": 1,
           "options": [
             {
-              "name": "Boltgun"
+              "item": "Boltgun"
             },
             [
               {
-                "name": "Chain Sword"
+                "item": "Chain Sword"
               },
               {
-                "name": "Bolt Pistol"
+                "item": "Bolt Pistol"
               }
             ]
           ]
         },
         {
-          "name": "Flak Coat"
+          "item": "Flak Coat"
         },
         {
-          "name": "Preysense Goggles"
+          "item": "Preysense Goggles"
         },
         {
-          "name": "Various Maps"
+          "item": "Various Maps"
         },
         {
-          "name": "Combi-tool"
+          "item": "Combi-tool"
         }
       ]
     },
@@ -1538,24 +1537,24 @@
           "choose": 1,
           "options": [
             {
-              "name": "Lasgun"
+              "item": "Lasgun"
             },
             {
-              "name": "Autogun"
+              "item": "Autogun"
             }
           ]
         },
         {
-          "name": "Knife"
+          "item": "Knife"
         },
         {
-          "name": "Symbol of Authority"
+          "item": "Symbol of Authority"
         },
         {
-          "name": "Guard Issue Mess Kit"
+          "item": "Guard Issue Mess Kit"
         },
         {
-          "name": "Tattered Blanket"
+          "item": "Tattered Blanket"
         }
       ]
     },
@@ -1722,33 +1721,254 @@
     "prerequisites" : [
       {
         "match" : "any",
-        "matchers" :
+        "matchers" : [{
+          "tier": 2,
+          "species": "Eldar",
+          "attributes" : {
+            "Agility" : 3
+          },
+          "skills" : {
+            "Stealth" : 1,
+            "Survival" : 2
+          }
+        }]
       }
     ],
+    "benefits" : {
+      "keywords" : [
+        "Aeldari",
+        "Asuryani"
+      ],
+      "abilities" : [
+        "From the Shadows"
+      ],
+      "wargear" : [
+        {
+          "item" : "Chameleoline Cloak"
+        },
+        {
+          "item" : "Eldar Mesh Armor"
+        },
+        {
+          "item" : "Ranger Long Rifle"
+        },
+        {
+          "item" : "Shuriken Pistol"
+        },
+        {
+          "item" : "Knife"
+        },
+        {
+          "item" : "Spirit Stone"
+        },
+        {
+          "item" : "Bedroll"
+        },
+        {
+          "item" : "Blanket"
+        }
+      ]
+    },
     "cost": 30
   },
   {
     "name": "Warlock",
     "category": "Aeldari",
-    "tier": 3,
+    "prerequisites" : [
+      {
+        "match" : "any",
+        "matchers" : [
+          {
+            "tier" : 3,
+            "species" : "Eldar",
+            "attributes" : {
+              "Willpower" : 4
+            },
+            "skills" : {
+              "Psychic Mastery" : 2
+            }
+          }
+        ]
+      }
+    ],
+    "benefits" : {
+      "keywords" : [
+        "Aeldari",
+        "Asuryani",
+        "Psyker"
+      ],
+      "influence" : 2,
+      "abilities" : [
+        "Runes of Battle"
+      ],
+      "wargear" : [
+        {
+          "item" : "Rune Armor"
+        },
+        {
+          "item" : "Witchblade"
+        },
+        {
+          "item" : "Shuriken Pistol"
+        },
+        {
+          "item" : "Wraithbone Runes"
+        },
+        {
+          "items" : "Spirit Stone"
+        }
+      ]
+    },
     "cost": 80
   },
   {
     "name": "Ork Boy",
     "category": "Orks",
-    "tier": 1,
+    "prerequisites" : [
+      {
+        "match" : "any",
+        "matchers" : [
+          {
+            "tier" : 1,
+            "species" : "Ork",
+            "attributes" : {
+              "Toughness" : 3
+            },
+            "skills" : {
+              "Weapon Skill" : 2
+            }
+          }
+        ]
+      }
+    ],
+    "benefits" : {
+      "keywords" : [
+        "Ork"
+      ],
+      "abilities" : [
+        "Get Stuck In"
+      ],
+      "wargear" : [
+        {
+          "item" : "Shoota"
+        },
+        {
+          "item" : "Slugga"
+        },
+        {
+          "item" : "Choppa"
+        }
+      ]
+    },
+    "specializations" : [
+      {
+        "name" : "Goffs"
+      },
+      {
+        "name" : "Evil Sunz"
+      },
+      {
+        "name" : "Bad Moons"
+      },
+      {
+        "name" : "Deathskulls"
+      },
+      {
+        "name" : "Blood Axe"
+      },
+      {
+        "name" : "Snakebites"
+      }
+    ],
     "cost": 0
   },
   {
     "name": "Kommando",
     "category": "Orks",
-    "tier": 2,
+    "prerequisites" : [
+      {
+        "match" : "any",
+        "matchers" : [
+          {
+            "tier" : 2,
+            "species" : "Ork",
+            "attributes" : {
+              "Agility" : 2,
+              "Toughness" : 2
+            },
+            "skills" : {
+              "Stealth" : 2,
+              "Survival" : 1
+            }
+          }
+        ]
+      }
+    ],
+    "benefits" : {
+      "keywords" : [
+        "Ork"
+      ],
+      "abilities" : [
+        "Kunnin' Plan"
+      ],
+      "wargear" : [
+        {
+          "item" : "Shoota"
+        },
+        {
+          "item" : "Slugga"
+        },
+        {
+          "item" : "Choppa"
+        },
+        {
+          "item" : "Stikkbombs"
+        }
+      ]
+    },
     "cost": 30
   },
   {
     "name": "Ork Nob",
     "category": "Orks",
-    "tier": 3,
+    "prerequisites" : [
+      {
+        "match" : "any",
+        "matchers" : [
+          {
+            "tier" : 3,
+            "species" : "Ork",
+            "attributes" : {
+              "Strength" : 4,
+              "Toughness" : 3
+            },
+            "skills" : {
+              "Intimidation" : 2
+            }
+          }
+        ]
+      }
+    ],
+    "benefits" : {
+      "keywords" : [
+        "Ork"
+      ],
+      "influence" : 2,
+      "abilities" : [
+        "Boyz"
+      ],
+      "wargear" : [
+        {
+          "item" : "'Eavy Armor"
+        },
+        {
+          "item" : "Kustom Slugga"
+        },
+        {
+          "item" : "Kustom Choppa"
+        }
+      ]
+    },
     "cost": 60
   }
 ]
