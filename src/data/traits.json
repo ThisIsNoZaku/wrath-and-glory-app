@@ -1,0 +1,52 @@
+{
+  "combat" : {
+    "Defence" : {
+      "base" : "Initiative",
+      "modifier" : -1
+    },
+    "Resilience" : {
+      "base" : "Toughness",
+      "modifier" : 1
+    },
+    "Soak" : {
+      "base" : "Toughness"
+    },
+    "Shock" : {
+      "base" : [
+        "Willpower",
+        "Tier"
+      ]
+    },
+    "Wounds" : {
+      "base" : [
+        "Toughness",
+        "Tier"
+      ]
+    }
+  },
+  "mental" : {
+    "Conviction" : {
+      "base" : "Willpower"
+    },
+    "Corruption" : {
+      "base" : 0
+    },
+    "Passive Awareness" : {
+      "base" : "Awareness",
+      "modifier" : "x0.5"
+    },
+    "Resolve" : {
+      "base" : "Willpower",
+      "modifier" : 1
+    }
+  },
+  "social" : {
+    "Influence" : {
+      "base" : "Fellowship",
+      "modifier" : -1
+    },
+    "Wealth" : {
+      "base" : "Tier"
+    }
+  }
+}
