@@ -12,7 +12,8 @@ class _CharacterInfo extends React.Component<CharacterInfoProps, CharacterInfoSt
     render() {
         return (<Grid
             container
-            spacing={24}>
+            justify={"center"}
+        >
             <Grid item xs={12}>
                 <TextField
                     label="Name"
