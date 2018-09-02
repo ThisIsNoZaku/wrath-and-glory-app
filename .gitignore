@@ -22,3 +22,9 @@ yarn-error.log*
 
 .idea
 wrath-and-glory-app.iml
+
+# Ignore .js compiled from .ts
+.js
+!src/App.js
+!src/App.test.js
+!src/index.js
