@@ -6,7 +6,7 @@ import {CharacterInfo} from "../components/CharacterInfo";
 
 storiesOf('CharacterInfo', module)
     .add('with no character', () => <CharacterInfo character={{}}></CharacterInfo>)
-    .add('with a character with', () => <CharacterInfo character={{
+    .add('with a character', () => <CharacterInfo character={{
         name: "Some Name",
         tier: 1,
         rank: 1
