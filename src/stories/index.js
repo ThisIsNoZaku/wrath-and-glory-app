@@ -3,6 +3,7 @@ import React from 'react';
 import {storiesOf} from '@storybook/react';
 
 import {CharacterInfo} from "../components/CharacterInfo";
+import {AttributesContainer} from "../components/AttributesContainer";
 
 storiesOf('CharacterInfo', module)
     .add('with no character', () => <CharacterInfo character={{}}></CharacterInfo>)
@@ -13,3 +14,10 @@ storiesOf('CharacterInfo', module)
     }}
                                                        rankBonus={1}
     ></CharacterInfo>);
+
+storiesOf("AttributesContainer", module)
+.add("with empty attributes", () => <AttributesContainer attributes={{}}/>)
+    .add("with some attributes with values", () => <AttributesContainer attributes={{
+        Strength: 1,
+        Agility: 2
+    }}/>)

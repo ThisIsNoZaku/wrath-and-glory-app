@@ -33,7 +33,7 @@ export class AttributesContainer extends React.Component<AttributesContainerProp
                             value={this.props.attributes[attributeName]}
                             fullWidth
                             InputProps={{
-                                readOnly:true
+                                readOnly: true
                             }}
                         />
                     </Grid>
