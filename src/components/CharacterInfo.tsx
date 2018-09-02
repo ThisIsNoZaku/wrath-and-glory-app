@@ -1,11 +1,9 @@
-import React, {Component} from 'react';
-import {withStyles} from "@material-ui/core/styles";
+import React from 'react';
 import {connect} from 'react-redux';
 import {Grid, TextField} from "@material-ui/core";
 import Character from "../model/Character";
 
-export class CharacterInfo extends React.Component<CharacterInfoProps, CharacterInfoState> {
-
+class _CharacterInfo extends React.Component<CharacterInfoProps, CharacterInfoState> {
 
     constructor(props: CharacterInfoProps) {
         super(props);
@@ -18,26 +16,32 @@ export class CharacterInfo extends React.Component<CharacterInfoProps, Character
             <Grid item xs={12}>
                 <TextField
                     label="Name"
-                    value={this.props.character.name}></TextField>
+                    value={this.props.character.name}
+                    fullWidth></TextField>
             </Grid>
             <Grid item xs={12}>
                 <TextField
                     label="Tier"
-                    value={this.props.character.tier}></TextField>
+                    value={this.props.character.tier}
+                    fullWidth></TextField>
             </Grid>
             <Grid item xs={6}>
                 <TextField
                     label="Rank"
-                    value={this.props.character.rank}></TextField>
+                    value={this.props.character.rank}
+                    fullWidth></TextField>
             </Grid>
             <Grid item xs={6}>
                 <TextField
                     label="Rank Bonus"
-                    value={this.props.rankBonus}></TextField>
+                    value={this.props.rankBonus}
+                    fullWidth></TextField>
             </Grid>
         </Grid>)
     }
 }
+
+export {_CharacterInfo as CharacterInfo};
 
 const connected = connect((state: any) => {
     if (!state.character) {
@@ -51,8 +55,8 @@ const connected = connect((state: any) => {
 export default connected;
 
 class CharacterInfoProps {
-    character: Character;
-    rankBonus:number;
+    character?: Character;
+    rankBonus?: number;
 }
 
 class CharacterInfoState {
