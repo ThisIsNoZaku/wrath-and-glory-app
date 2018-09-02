@@ -45,12 +45,16 @@ export {_CharacterInfo as CharacterInfo};
 
 const connected = connect((state: any) => {
     if (!state.character) {
-        return {};
+        return {
+            character: {}
+        };
     }
-    return state.character;
+    return {
+        character: state.character
+    };
 }, (dispatch: any) => {
     return {};
-})(CharacterInfo);
+})(_CharacterInfo);
 
 export default connected;
 
