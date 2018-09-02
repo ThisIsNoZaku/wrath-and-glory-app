@@ -1,8 +1,7 @@
-import React, {Component} from 'react';
-import {connect} from 'react-redux';
-import { Grid } from "@material-ui/core";
+import React from 'react';
+import CharacterInfo from "../components/CharacterInfo";
 
-class CharacterSheet extends React.Component<CharacterSheetProps, CharacterSheetState> {
+export default class CharacterSheet extends React.Component<CharacterSheetProps, CharacterSheetState> {
     render() {
         return (<div>
             <CharacterInfo/>
@@ -10,15 +9,6 @@ class CharacterSheet extends React.Component<CharacterSheetProps, CharacterSheet
     }
 
 }
-
-const connected = connect((state: any) => {
-    console.info(state);
-    return state;
-}, (dispatch: any) => {
-    return {};
-})(CharacterSheet);
-
-export default connected;
 
 class CharacterSheetProps {
 }
